@@ -1,8 +1,8 @@
 .section-container
-  display: flex
+  display: flex-grid
   justify-content: center
   align-items: center
-  
+
 
 .project-container
   max-width: 750px
@@ -44,7 +44,7 @@
     &:hover .project-overlay
       +position(absolute, 0px 0px null 0px)
 
-@media (max-width: 768px)
+@media (max-width: 1000px)
   .project-container
     max-width: 80vw
     .project-unit
