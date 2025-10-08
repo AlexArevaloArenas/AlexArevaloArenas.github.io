@@ -1,39 +1,27 @@
-/* ---------- projects grid (replace your old .project-container block) ---------- */
 .project-container
-  display: flex
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr))
-  gap: 30px
-  max-width: 1200px
-  margin: 0 auto
+  max-width: 750px
+  margin: 0px auto 0px
   padding: 30px
-  box-sizing: border-box
-  justify-content: center    // centers the whole grid inside the container
-
-  /* ensure the anchor (the actual grid child) fills the column */
-  > a
-    display: block
-    width: 100%
-    text-decoration: none
-
+  +clearfix
   .project-unit
     box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23)
     cursor: pointer
     display: block
-    width: 100%                 // let the grid column sizing control the width
-    aspect-ratio: 2 / 1         // modern, keeps consistent card proportions
-    margin: 0                   // remove old auto margins
+    width: 600px
+    height: 300px
+    margin: 0px auto 30px
     position: relative
     overflow: hidden
     background:
       position: center center
       repeat: no-repeat
       size: cover
-
     .project-overlay
       +position(absolute, 100% 0px null 0px)
       height: 100%
       background: fade-out(#333, 0.5)
       text-align: center
+      //+transition
       +display(flex)
       +align-items(center)
       +justify-content(space-around)
@@ -45,13 +33,12 @@
         font:
           size: 24px
           weight: 300
-
     &:hover .project-overlay
       +position(absolute, 0px 0px null 0px)
 
-/* Mobile fallback */
 @media (max-width: 768px)
   .project-container
-    grid-template-columns: 1fr
-    max-width: 90vw
-    padding: 20px
+    max-width: 80vw
+    .project-unit
+      width: 80vw
+      height: 40vw

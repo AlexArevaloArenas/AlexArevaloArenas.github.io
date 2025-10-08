@@ -3,7 +3,7 @@
 
 menu:
 - {name: 'Portfolio', url: ''}
-- {name: 'Projects', url: 'projects'}
+#- {name: 'Projects', url: 'projects'}
 - {name: 'Blog',     url: 'blog'}
 - {name: 'About',    url: 'about'}
 #- {name: 'Contact',  url: 'contact'}
