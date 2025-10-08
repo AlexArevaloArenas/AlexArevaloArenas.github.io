@@ -1,3 +1,4 @@
+/* ---------- projects grid (replace your old .project-container block) ---------- */
 .project-container
   display: grid
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr))
@@ -5,13 +6,22 @@
   max-width: 1200px
   margin: 0 auto
   padding: 30px
+  box-sizing: border-box
+  justify-content: center    // centers the whole grid inside the container
+
+  /* ensure the anchor (the actual grid child) fills the column */
+  > a
+    display: block
+    width: 100%
+    text-decoration: none
 
   .project-unit
     box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23)
     cursor: pointer
     display: block
-    width: 100%   // let grid handle sizing
-    aspect-ratio: 2 / 1  // replaces fixed width/height for responsiveness
+    width: 100%                 // let the grid column sizing control the width
+    aspect-ratio: 2 / 1         // modern, keeps consistent card proportions
+    margin: 0                   // remove old auto margins
     position: relative
     overflow: hidden
     background:
@@ -39,6 +49,7 @@
     &:hover .project-overlay
       +position(absolute, 0px 0px null 0px)
 
+/* Mobile fallback */
 @media (max-width: 768px)
   .project-container
     grid-template-columns: 1fr
