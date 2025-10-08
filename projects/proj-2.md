@@ -3,6 +3,8 @@ layout: post
 title: 'Growing Fear'
 ---
 
-Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed ultrices tortor nec nunc hendrerit rutrum. Nullam congue nulla eu placerat convallis. Morbi volutpat dolor nunc, nec dignissim neque condimentum nec. Nullam vel sem egestas augue tempus pulvinar in vitae neque. Ut mattis tincidunt felis, laoreet aliquet ex mollis ac. Sed sit amet nisl id enim blandit facilisis. Maecenas quis ultrices sapien, ac ullamcorper mi.
+In this game, you play as a poor Cthulhian office worker who has been tasked with frightening cities using monstrous plants. Help him spread fear across the entire world.
 
-{% include image.html url="http://www.gratisography.com" image="projects/proj-2/stretch.jpg" %}
+Growing Fear is a spooky resource management and farming game made for the UJI Game Jam – Spooky Edition 2023.
+
+[Play today!](https://hollowblink.itch.io/growing-fear) 
