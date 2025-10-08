@@ -2,11 +2,11 @@
 layout: post
 title: 'Goblinmancer'
 ---
-# What is Goblinmancer?
+## What is Goblinmancer?
 
 [Goblinmancer](#) was created for the Jamsepticeye 2025, with the concept "Death is a new opportunity".
 
-# My work
+## My work
 
 I worked as lead designer and audio designer in the game, helping with the creation of an unified experience and organizing the team to follow a similar vision. These were of my responsabilities:
 - Designing units and buildings, creating an unique gameplay loop for a tower defense game.
@@ -17,4 +17,4 @@ I worked as lead designer and audio designer in the game, helping with the creat
 - Composing game music.
 
 
-{% include image.html url="http://www.gratisography.com" image="projects/proj-1/logo_goblinmancer.png" %}
+{% include image.html url="https://kiskidiego.itch.io/goblinmancer" image="projects/proj-1/logo_goblinmancer.png" %}
