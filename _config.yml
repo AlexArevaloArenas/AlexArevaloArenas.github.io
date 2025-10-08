@@ -8,5 +8,5 @@ plugins:   [jekyll-sitemap, jekyll-feed,  jekyll-seo-tag]
 # Customise atom feed settings (this is where Jekyll-Feed gets configuration information)
 
 title:		   "Alex Arévalo Arenas"
-description: "Game development portfolio"
+description: "Game Development Portfolio"
 author:      "Alex Arévalo Arenas"

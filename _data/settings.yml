@@ -13,8 +13,8 @@ menu:
 
 projects:
 - {name: 'Goblinmancer',   url: 'proj-1'}
-- {name: 'Splintered Heaven',   url: 'proj-2'}
-- {name: 'Growing Fear', url: 'proj-3'}
+- {name: 'Growing Fear',   url: 'proj-2'}
+- {name: 'Splintered Heaven', url: 'proj-3'}
 - {name: 'Prop Trip',  url: 'proj-4'}
 - {name: 'Mini Mobile Adventure',  url: 'proj-5'}
 
@@ -22,11 +22,11 @@ projects:
 # Contact Section
 
 social:
-- {icon: 'twitter',   link: 'https://twitter.com/paululele'}
-- {icon: 'instagram', link: 'https://instagram.com/paululele'}
-- {icon: 'github',    link: 'https://github.com/lenpaul'}
+#- {icon: 'twitter',   link: 'https://twitter.com/paululele'}
+#- {icon: 'instagram', link: 'https://instagram.com/paululele'}
+- {icon: 'github',    link: 'https://github.com/AlexArevaloArenas'}
 - {icon: 'linkedin',  link: 'https://www.linkedin.com/in/alejandro-arevalo-'}
-- {icon: 'envelope',  link: 'mailto:mailto:l.nguyen.paul@gmail.com'}
+- {icon: 'envelope',  link: 'mailto:mailto:alejandro.arevalo.arenas@gmail.com'}
 
 # social network icons available: 'twitter' / 'facebook' / 'github' / 'pinterest' 'google-plus' / 'linkedin' / 'youtube' / 'instagram' / 'dribbble' / 'behance' / 'soundcloud' / 'vine'
 
