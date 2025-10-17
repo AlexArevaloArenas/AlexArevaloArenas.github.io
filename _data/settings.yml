@@ -13,6 +13,7 @@ menu:
 
 projects:
 - {name: 'Goblinmancer',   url: 'proj-1'}
+- {name: 'K-BOOM',   url: 'proj-6'}
 - {name: 'Growing Fear',   url: 'proj-2'}
 - {name: 'Splintered Heaven', url: 'proj-3'}
 - {name: 'Prop Trip',  url: 'proj-4'}
