@@ -1,14 +1,38 @@
-.project-container
-  max-width: 750px
+.section
+  align-items: center
+  //max-width: 1000px
   margin: 0px auto 0px
   padding: 30px
   +clearfix
+
+.project-container
+  align-items: center
+
+  display: flex
+  //flex-direction: column
+  flex-wrap: wrap
+  gap: 30px
+  align-content: center
+  justify-content: center
+  list-style: none
+  overflow: hidden
+
+  //background-color: DodgerBlue
+  //max-width: 750px
+  margin: 0px auto 0px
+  padding: 30px
+
+  +clearfix
+
   .project-unit
     box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23)
     cursor: pointer
     display: block
-    width: 600px
-    height: 300px
+    width: 400px
+    height: 200px
+    
+
+
     margin: 0px auto 30px
     position: relative
     overflow: hidden
