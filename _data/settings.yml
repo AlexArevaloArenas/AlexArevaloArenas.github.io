@@ -12,12 +12,12 @@ menu:
 # Projects Section
 
 projects:
-- {name: 'Goblinmancer',   url: 'proj-1'}
-- {name: 'K-BOOM',   url: 'proj-6'}
-- {name: 'Growing Fear',   url: 'proj-2'}
-- {name: 'Splintered Heaven', url: 'proj-3'}
-- {name: 'Prop Trip',  url: 'proj-4'}
-- {name: 'Mini Mobile Adventure',  url: 'proj-5'}
+- {name: 'Goblinmancer',   url: 'proj-1', tags: 'Game Designer, Tower Defense'}
+- {name: 'K-BOOM',   url: 'proj-6', tags: 'Game Designer, Puzzle'}
+- {name: 'Growing Fear',   url: 'proj-2',tags: 'Audio Designer, Game Designer, Strategy'}
+- {name: 'Splintered Heaven', url: 'proj-3',tags: 'Bachelor Thesis, Unity'}
+- {name: 'Prop Trip',  url: 'proj-4',tags: 'Audio Designer, Programmer, Shooter'}
+- {name: 'Mini Mobile Adventure',  url: 'proj-5',tags: 'Solo Project, Unity'}
 
 #-------------------------------
 # Contact Section
