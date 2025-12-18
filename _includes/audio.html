@@ -1,0 +1,13 @@
+<div class="audio-player-container" style="background: #191919; padding: 15px; border-radius: 8px; margin: 10px 0; border: 1px solid #ddd;">
+  <div class="audio-info" style="margin-bottom: 10px;">
+    <strong style="color: #eaeaea;display: block; font-size: 1.5em;">{{ include.titulo | default: "Audio sin título" }}</strong>
+    {% if include.artista %}
+      <span style="color: #eaeaea; font-size: 1em;">{{ include.artista }}</span>
+    {% endif %}
+  </div>
+  
+  <audio controls style="width: 100%;">
+    <source src="{{ include.src | relative_url }}" type="audio/mpeg">
+    Tu navegador no soporta el elemento de audio.
+  </audio>
+</div>

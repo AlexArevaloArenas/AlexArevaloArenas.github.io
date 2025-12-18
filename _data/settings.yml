@@ -4,7 +4,7 @@
 menu:
 - {name: 'Portfolio', url: ''}
 #- {name: 'Projects', url: 'projects'}
-- {name: 'Blog',     url: 'blog'}
+#- {name: 'Blog',     url: 'blog'}
 - {name: 'About',    url: 'about'}
 #- {name: 'Contact',  url: 'contact'}
 
@@ -12,12 +12,12 @@ menu:
 # Projects Section
 
 projects:
-- {name: 'Goblinmancer',   url: 'proj-1', tags: 'Game Designer, Tower Defense'}
-- {name: 'K-BOOM',   url: 'proj-6', tags: 'Game Designer, Puzzle'}
-- {name: 'Growing Fear',   url: 'proj-2',tags: 'Audio Designer, Game Designer, Strategy'}
-- {name: 'Splintered Heaven', url: 'proj-3',tags: 'Bachelor Thesis, Unity'}
-- {name: 'Prop Trip',  url: 'proj-4',tags: 'Audio Designer, Programmer, Shooter'}
-- {name: 'Mini Mobile Adventure',  url: 'proj-5',tags: 'Solo Project, Unity'}
+- {name: 'Goblinmancer',   url: 'goblinmancer', tags: 'Game Designer, Programmer, Unity,Audio Designer'}
+- {name: 'K-BOOM',   url: 'k-boom', tags: 'Game Designer, Programmer, Unity'}
+- {name: 'Growing Fear',   url: 'growing-fear',tags: 'Game Designer, Programmer, Unity, Audio Designer'}
+- {name: 'Splintered Heaven', url: 'splintered-heaven',tags: 'Game Designer, Programmer, Unity,Audio Designer'}
+- {name: 'Prop Trip',  url: 'prop-trip',tags: 'Audio Designer, Game Designer, Programmer, Unity'}
+- {name: 'Mini Mobile Adventure',  url: 'mini-mobile-adventure',tags: 'Unity'}
 
 #-------------------------------
 # Contact Section

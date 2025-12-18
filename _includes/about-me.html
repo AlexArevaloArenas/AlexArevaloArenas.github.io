@@ -1,0 +1,120 @@
+<section class="about-horizontal-card">
+  <div class="about-photo-side">
+    <img src="{{ include.photo | relative_url }}" alt="Profile Photo">
+  </div>
+  
+  <div class="about-content-side">
+    <div class="bio-text">
+      {{ include.bio }}
+    </div>
+    
+    <div class="contact-row">
+      {% if include.email %}
+      <a href="mailto:{{ include.email }}" class="contact-link">
+        <i class="fa fa-envelope"></i> {{ include.email }}
+      </a>
+      {% endif %}
+      
+      {% if include.linkedin %}
+      <a href="https://linkedin.com/in/{{ include.linkedin }}" target="_blank" class="contact-link">
+        <i class="fa fa-linkedin"></i> LinkedIn
+      </a>
+      {% endif %}
+      
+      {% if include.location %}
+      <div class="contact-link">
+        <i class="fa fa-map-marker"></i> {{ include.location }}
+      </div>
+      {% endif %}
+    </div>
+  </div>
+</section>
+
+
+<style>
+:root {
+  --about-accent: #000000;
+  --about-bg: #c2c2d6;
+  --text-light: #555;
+  --shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+}
+
+.about-horizontal-card {
+  display: flex;
+  flex-direction: row; /* Forces horizontal */
+  align-items: center;
+  justify-content: center; /* Centers the content within the card */
+  background: #212133;
+  padding: 30px 50px;
+  border-radius: 16px;
+  box-shadow: var(--shadow);
+  margin: 2rem auto;
+  width: 200%;
+  gap: 30px; /* Spacious gap between photo and text */
+}
+
+.about-photo-side {
+  flex: 0 0 200px; /* Fixed smaller width for the photo */
+}
+
+.about-photo-side img {
+  width: 280px;
+  height: 280px;
+  object-fit: cover;
+  border-radius: 50%; /* Circular photo looks better in horizontal layouts */
+  border: 3px solid var(--about-accent);
+}
+
+.about-content-side {
+  flex: 1; /* Takes up the remaining space */
+  text-align: justify;
+}
+
+.bio-text {
+  font-size: 1.15rem;
+  line-height: 1.6;
+  color: var(--text-light);
+  margin-bottom: 20px;
+}
+
+.contact-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px; /* Horizontal list of contact links */
+}
+
+.contact-link {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #333;
+  font-size: 0.95rem;
+  font-weight: 500;
+  transition: opacity 0.2s;
+}
+
+.contact-link i {
+  margin-right: 8px;
+  color: var(--about-accent);
+}
+
+.contact-link:hover {
+  opacity: 0.7;
+}
+
+/* Responsive adjustment */
+@media (max-width: 850px) {
+  .about-horizontal-card {
+    flex-direction: column;
+    text-align: center;
+    padding: 30px;
+    gap: 20px;
+  }
+  .about-content-side {
+    text-align: center;
+  }
+  .contact-row {
+    justify-content: center;
+  }
+}
+</style>

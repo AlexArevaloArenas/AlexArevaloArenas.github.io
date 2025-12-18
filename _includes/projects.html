@@ -1,23 +1,86 @@
 <section class="section">
+  <div class="filter-bar" style="margin-bottom: 20px; text-align: center;">
+    <button class="filter-btn active" data-filter="all">All</button>
+    {% assign all_tags = "" | split: "," %}
+    {% for project in site.data.settings.projects %}
+      {% assign project_tags = project.tags | split: "," %}
+      {% for tag in project_tags %}
+        {% assign stripped_tag = tag | strip %}
+        {% unless all_tags contains stripped_tag %}
+          {% assign all_tags = all_tags | push: stripped_tag %}
+        {% endunless %}
+      {% endfor %}
+    {% endfor %}
+
+    {% for tag in all_tags %}
+      <button class="filter-btn" data-filter="{{ tag | slugify }}">{{ tag }}</button>
+    {% endfor %}
+  </div>
+
   <div class="project-container">
     {% for project in site.data.settings.projects %}
-      <a href="{{ site.github.url }}/projects/{{ project.url }}">
-        <div class="project-unit" data-folder="{{ site.github.url }}/projects/{{ project.url }}" style="background-image: url({{ site.github.url }}/assets/img/projects/{{ project.url }}/thumbnail.jpg)">
+      {% comment %} Create a slugified string of tags for the data attribute {% endcomment %}
+      {% capture tag_list %}{% assign t = project.tags | split: "," %}{% for item in t %}{{ item | strip | slugify }} {% endfor %}{% endcapture %}
+
+      <a href="{{ site.github.url }}/projects/{{ project.url }}" 
+         class="project-card" 
+         data-tags="{{ tag_list | strip }}">
+        
+        <div class="project-unit" style="background-image: url({{ site.github.url }}/assets/img/projects/{{ project.url }}/thumbnail.jpg)">
           <div class="project-overlay">
             <strong>{{ project.name }} <i class="fa fa-arrow-right" aria-hidden="true"></i></strong>
           </div>
-          
         </div>
 
-        <div class="project-name">  
-            {{ project.name }}
-        </div>
-        <div class="project-tags">  
-            {{ project.tags }}
-        </div>
-        
-
+        <div class="project-name">{{ project.name }}</div>
+        <div class="project-tags">{{ project.tags }}</div>
       </a>
     {% endfor %}
   </div>
 </section>
+
+<script>
+document.querySelectorAll('.filter-btn').forEach(button => {
+  button.addEventListener('click', () => {
+    const filter = button.getAttribute('data-filter');
+    
+    // 1. Gestionar estado activo de los botones
+    document.querySelectorAll('.filter-btn').forEach(btn => btn.classList.remove('active'));
+    button.classList.add('active');
+
+    // 2. Filtrar las tarjetas
+    document.querySelectorAll('.project-card').forEach(card => {
+      const tags = card.getAttribute('data-tags').split(' ');
+      
+      if (filter === 'all' || tags.includes(filter)) {
+        card.style.display = 'block'; // O 'flex' según tu CSS
+      } else {
+        card.style.display = 'none';
+      }
+    });
+  });
+});
+</script>
+
+<style>
+ .filter-btn {
+  padding: 8px 18px;
+  background: rgba(255, 255, 255, 0);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0);
+  border-radius: 12px;
+  color: #333;
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+.filter-btn.active {
+  background: rgba(255, 255, 255, 0.8);
+  border: 1px solid white;
+  transform: translateY(-3px); /* Lifts the button up */
+  box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+}
+</style>
+
+<section class="section">

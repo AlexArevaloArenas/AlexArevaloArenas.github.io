@@ -4,9 +4,9 @@ title: 'Goblinmancer'
 ---
 ## What is Goblinmancer?
 
-[Goblinmancer](#) was created for the Jamsepticeye 2025, with the concept "Death is a new opportunity".
+[Goblinmancer](#) was originally created for the Jamsepticeye 2025, with the concept "Death is a new opportunity".
 
-## My work
+## My work in the game jam
 
 I worked as lead designer and audio designer in the game, helping with the creation of an unified experience and organizing the team to follow a similar vision. These were of my responsabilities:
 - Designing units and buildings, creating an unique gameplay loop for a tower defense game.
@@ -16,5 +16,11 @@ I worked as lead designer and audio designer in the game, helping with the creat
 - Creation of SFX and ambient for the game.
 - Composing game music.
 
+### Goblinmancer tracks
+Here is the combat song I made for the game:
+{% include audio.html src="/assets/audio/Demo1.wav" titulo="Demo 1" artista="Alejandro Arévalo Arenas" %}
 
-{% include image.html url="https://kiskidiego.itch.io/goblinmancer" image="projects/proj-1/logo_goblinmancer.png" %}
+{% include image.html url="https://kiskidiego.itch.io/goblinmancer" image="projects/goblinmancer/logo_goblinmancer.png" %}
+
+
+## My work in the complete version
