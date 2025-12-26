@@ -32,8 +32,24 @@
           </div>
         </div>
 
-        <div class="project-name">{{ project.name }}</div>
-        <div class="project-tags">{{ project.tags }}</div>
+        <div class="project-info">
+        
+          <div class="project-role">
+            {{ project.role }} &bull; {{ project.year }}
+          </div>
+          <div class="project-name">
+            {{ project.name }}
+            <div class="tag-container">
+            {% assign tags = project.tags | split: "," %}
+            {% for tag in tags %}
+              {% assign tag_clean = tag | strip | slugify %}
+              <span class="pill {{ tag_clean }}">{{ tag | strip }}</span>
+            {% endfor %}
+            </div>
+          </div>
+
+        </div>
+
       </a>
     {% endfor %}
   </div>

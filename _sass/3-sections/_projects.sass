@@ -17,12 +17,58 @@
   //font-family: "Helvetica"
   font-weight: bold
   
-.project-tags
-  align-content: left
-  justify-content: left
-  font-size: 15px
-  color: $textColor
-  //font-family: "Helvetica"
+// 1. Define your brand colors for tags
+$tag-colors: (
+  "game": #4A90E2,      // Professional Blue
+  "audio": #F5A623,     // Warm Orange/Gold
+  "research": #7B61FF,  // Academic Purple
+  "narrative": #E94E77   // Creative Pink/Red
+)
+
+.project-info
+  display: flex
+  flex-direction: column
+  padding: 12px 0
+
+  .project-role
+    font-size: 0.95rem
+    font-weight: 800
+    text-transform: uppercase
+    letter-spacing: 1.5px // This creates the "pro" look
+    color: #888
+    margin-bottom: -10px
+    display: flex
+    align-items: center
+    
+    &::after // Adds a decorative line after the role
+      content: ""
+      flex: 1
+      height: 1px
+      background: #0000007e
+      margin-left: 10px
+
+  .project-name
+    font-size: 1.65rem
+    font-weight: 700
+    color: #111
+
+.tag-container
+  display: flex
+  flex-wrap: wrap
+  gap: 6px
+
+  .pill
+    font-size: 0.7rem
+    padding: 3px 10px
+    border-radius: 20px
+    font-weight: 600
+    color: white
+    text-transform: capitalize
+    
+    // 2. Loop through the map to generate classes automatically
+    @each $name, $color in $tag-colors
+      &.#{$name}
+        background-color: $color
 
 .project-container
   align-items: center
