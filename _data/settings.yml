@@ -16,7 +16,7 @@ projects:
 - {name: 'Goblinmancer',   url: 'goblinmancer', tags: 'Game', role: 'Lead Game Designer & Audio Designer', year: '2025'}
 - {name: 'Audio Reel',   url: 'audio', tags: 'Audio', role: 'Solo', year: '2025'}
 - {name: 'Narrative Anthology',   url: 'narrative', tags: 'Narrative', role: 'Solo', year: '2024'}
-- {name: 'K-BOOM',   url: 'k-boom', tags: 'Game', role: 'Solo', year: '2025'}
+- {name: 'K-boom',   url: 'k-boom', tags: 'Game', role: 'Solo', year: '2025'}
 - {name: 'Pathologic Article',   url: 'article', tags: 'Research', role: 'Solo', year: '2026'}
 - {name: 'Refugio 101',   url: 'refugio101', tags: 'Audio', role: 'Solo', year: '2025'}
 - {name: 'Growing Fear',   url: 'growing-fear',tags: 'Game', role: 'Solo', year: '2023'}
