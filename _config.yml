@@ -10,3 +10,7 @@ plugins:   [jekyll-sitemap, jekyll-feed,  jekyll-seo-tag]
 title:		   "Alex Arévalo Arenas"
 description: "Game Development Portfolio"
 author:      "Alex Arévalo Arenas"
+
+sass:
+  style: compressed # or expanded
+  sass_dir: _sass    # Make sure this points to where your partials live
