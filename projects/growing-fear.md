@@ -10,8 +10,8 @@ Growing Fear is a spooky resource management and farming game made for the UJI G
 
 {% include image.html url="https://hollowblink.itch.io/growing-fear" image="projects/growing-fear/gf2.png" %}
 
-#### Soundtrack
-I composed the following songs for the game:
+//#### Soundtrack
+//I composed the following songs for the game:
 
 
 
