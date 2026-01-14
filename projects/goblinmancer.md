@@ -17,10 +17,9 @@ I worked as lead designer and audio designer in the game, helping with the creat
 - Composing game music.
 
 ### Goblinmancer tracks
-Here is the combat song I made for the game:
-{% include audio.html src="/assets/audio/Demo1.wav" titulo="Demo 1" artista="Alejandro Arévalo Arenas" %}
+During the Game Jam I created three songs.
+{% include audio.html src="/assets/audio/GoblinConstruction.wav" titulo="Goblin Construction Phase" artista="Alejandro Arévalo Arenas" %}
+{% include audio.html src="/assets/audio/MENU.wav" titulo="Main Menu" artista="Alejandro Arévalo Arenas" %}
+{% include audio.html src="/assets/audio/BattleGoblin.wav" titulo="Battle Song" artista="Alejandro Arévalo Arenas" %}
 
 {% include image.html url="https://kiskidiego.itch.io/goblinmancer" image="projects/goblinmancer/logo_goblinmancer.png" %}
-
-
-## My work in the complete version
