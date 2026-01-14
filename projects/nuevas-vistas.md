@@ -11,11 +11,12 @@ title: 'Nuevas Vistas'
 
 **Project Timeline**: 3 Weeks (Winter 2024)
 
+
 #### Project Overview
 
 Nuevas Vistas is an adaptation of an original short story, reimagined as a narrative game. Set in my hometown, the project serves as both a "love letter" and a grounded exploration of the friction between artistic ambition and the limitations of a small-town environment.
 
-The project was intentionally designed to address two professional growth areas: scope management and visual asset production within a limited 2D skill set. 
+The project was intentionally designed to address two professional growth areas: scope management and visual asset production within a limited 2D skill set.
 
 #### The Strategy: Embracing Constraints
 
