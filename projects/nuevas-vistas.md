@@ -9,7 +9,7 @@ title: 'Nuevas Vistas'
 
 **Format**: Interactive Photo Visual Novel
 
-**Project Timeline**: 3 Weeks (Winter 2024)
+**Project Timeline**: 3 Weeks (Winter 2025)
 
 
 #### Project Overview
@@ -22,9 +22,9 @@ The project was intentionally designed to address two professional growth areas:
 
 To bypass traditional 2D art limitations, I pivoted to a photography-based aesthetic. By utilizing my own photography and original music, I focused on building a specific atmosphere rather than high-fidelity assets.
 
-*The "Healing" Workflow*: Managing all pillars of production allowed me to see how framing and pacing can compensate for low-resource environments.
+*Complete control*: Managing all pillars of production allowed me to see how framing and pacing can compensate for low-resource environments.
 
-*Contextual Audio/Visuals*: Using real-world imagery and custom soundscapes provided a sense of "place" that rendered complex 2D illustrations unnecessary.
+*Contextual Audio/Visuals*: Using real-world imagery and custom soundscapes provided a sense of place that rendered complex 2D illustrations unnecessary.
 
 {% include image.html url="https://alex-perritos.itch.io/nuevas-vistas" image="projects/nuevas-vistas/frame_185.jpg" %}
 
@@ -36,13 +36,13 @@ The biggest hurdle was translating a linear short story into an interactive medi
 
 The Problem: Early iterations felt passive. I discovered that limiting player agency too severely led to apathy.
 
-The Solution: I shifted focus toward active engagement. I found that players stayed grounded when narrative fragments felt like pieces of a puzzle they were actively solving, similar to the engagement found in "puzzle films."
+The Solution: I shifted focus toward active engagement. I found that players stayed grounded when narrative fragments felt like pieces of a puzzle they were actively solving, similar to the engagement found in puzzle films.
 
 **Balancing Abstract Narrative with Immersion**
 
-The Problem: While the photos provided realism, the text was initially too abstract. This created a "surrealist detachment" that pulled players out of the emotional core of the story.
+The Problem: While the photos provided realism, the text was initially too abstract. This pulled players out of the emotional core of the story.
 
-The Solution: I refined the text to ground the surreal elements in the physical reality of the photography, ensuring the player felt "present" in the scene even when the themes were complex.
+The Solution: I refined the text to ground the surreal elements in the physical reality of the photography, ensuring the player felt present in the scene even when the themes were complex.
 
 
 #### Key Takeaways
