@@ -14,7 +14,7 @@ menu:
 projects:
 - {name: 'Nuevas Vistas',   url: 'nuevas-vistas', tags: 'Game', role: 'Solo', year: '2026'}
 - {name: 'K-boom',   url: 'k-boom', tags: 'Game', role: 'Solo', year: '2025'}
-- {name: 'Article: Theatrical resource inheritance in Pathologic 2',   url: 'article', tags: 'Research', role: 'Solo', year: '2025'}
+- {name: 'Research: Theatrical Inheritance in Pathologic 2',   url: 'article', tags: 'Research', role: 'Solo', year: '2025'}
 - {name: 'Goblinmancer',   url: 'goblinmancer', tags: 'Game', role: 'Lead Game Designer & Audio Designer', year: '2025'}
 - {name: 'Audio Reel',   url: 'audio', tags: 'Audio', role: 'Solo', year: '2025'}
 - {name: 'Narrative Anthology',   url: 'narrative', tags: 'Narrative', role: 'Solo', year: '2024'}
