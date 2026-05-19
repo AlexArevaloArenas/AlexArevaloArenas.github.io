@@ -13,17 +13,17 @@ menu:
 
 projects:
 - {name: 'Nuevas Vistas',   url: 'nuevas-vistas', tags: 'Game', role: 'Solo', year: '2026'}
-- {name: 'K-boom',   url: 'k-boom', tags: 'Game', role: 'Solo', year: '2025'}
+- {name: 'K-boom',   url: 'k-boom', tags: 'Game', role: 'Level Designer & Composer', year: '2025'}
 - {name: 'Theatrical Influence in Pathologic',   url: 'article', tags: 'Research', role: 'Solo', year: '2025'}
 - {name: 'Goblinmancer',   url: 'goblinmancer', tags: 'Game', role: 'Lead Game Designer & Audio Designer', year: '2025'}
 - {name: 'Audio Reel',   url: 'audio', tags: 'Audio', role: 'Solo', year: '2025'}
 - {name: 'Narrative Anthology',   url: 'narrative', tags: 'Narrative', role: 'Solo', year: '2024'}
-- {name: 'Refugio 101',   url: 'refugio101', tags: 'Audio', role: 'Solo', year: '2025'}
-- {name: 'Growing Fear',   url: 'growing-fear',tags: 'Game', role: 'Solo', year: '2023'}
+- {name: 'Refugio 101',   url: 'refugio101', tags: 'Audio', role: 'Co.host', year: '2025'}
+- {name: 'Growing Fear',   url: 'growing-fear',tags: 'Game', role: 'Game Designer & Composer', year: '2023'}
 - {name: 'Splintered Heaven', url: 'splintered-heaven',tags: 'Game', role: 'Solo', year: '2025'}
-- {name: 'Prop Trip',  url: 'prop-trip',tags: 'Game', role: 'Solo', year: '2024'}
+- {name: 'Prop Trip',  url: 'prop-trip',tags: 'Game', role: 'Game Designer & Composer', year: '2024'}
 - {name: 'Mini Mobile Adventure',  url: 'mini-mobile-adventure',tags: 'Game', role: 'Solo', year: '2023'}
-- {name: 'BFF!',   url: 'bff', tags: 'Game', role: 'Solo', year: '2023'}
+- {name: 'BFF!',   url: 'bff', tags: 'Game', role: 'Game Designer & Composer', year: '2023'}
 
 #-------------------------------
 # Contact Section
