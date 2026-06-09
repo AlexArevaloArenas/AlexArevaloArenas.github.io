@@ -10,6 +10,7 @@ title: 'Crossmath Prototype'
 
 **Project Timeline**: 1 Week (June 2026)
 
+[Play it here today!](https://alex-perritos.itch.io/crossmath-prototype?secret=rLj9DQKv4vkaj7NuPOMt2uMFXMk) 
 
 #### Project Overview
 
