@@ -12,7 +12,7 @@ title: 'Crossmath Prototype'
 
 [Play it here today!](https://alex-perritos.itch.io/crossmath-prototype?secret=rLj9DQKv4vkaj7NuPOMt2uMFXMk) 
 
-#### Project Overview
+#### Project Overview 
 
 CrossMath is an arithmetic puzzle game that merges crossword topology with mathematical equations. Built to feature both infinite gameplay and curated progression, the project balances a high-performance procedural generation pipeline with a robust, data-driven level editor and JSON serialization system.
 
