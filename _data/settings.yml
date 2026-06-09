@@ -12,6 +12,7 @@ menu:
 # Projects Section
 
 projects:
+- {name: 'Crossmath Prototype',   url: 'crossmath-prototype', tags: 'Game', role: 'Solo', year: '2026'}
 - {name: 'Nuevas Vistas',   url: 'nuevas-vistas', tags: 'Game', role: 'Solo', year: '2026'}
 - {name: 'K-boom',   url: 'k-boom', tags: 'Game', role: 'Level Designer & Composer', year: '2025'}
 - {name: 'Theatrical Influence in Pathologic',   url: 'article', tags: 'Research', role: 'Solo', year: '2025'}
