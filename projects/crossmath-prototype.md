@@ -2,14 +2,13 @@
 layout: post
 title: 'Crossmath Prototype'
 ---
-## Nuevas Vistas
-{% include image.html url="https://alex-perritos.itch.io/nuevas-vistas" image="projects/nuevas-vistas/frame_459.jpg" %}
+## Crossmath Prototype
 
-**Role**: Solo Developer (Design, Narrative, Photography, Audio)
+**Role**: Solo Developer (Programming, Audio)
 
-**Format**: Interactive Photo Visual Novel
+**Format**: Math Puzzle Game for Mobile and Web
 
-**Project Timeline**: 3 Weeks (Winter 2025)
+**Project Timeline**: 1 Week (June 2026)
 
 
 #### Project Overview
@@ -42,4 +41,3 @@ The Solution: I developed a permanent, global Scene View overlay window using ad
 
 - Architectural Decoupling: Keeping MonoBehaviours isolated from core data states makes systems highly reusable, painless to debug, and trivial to serialize into web-ready formats like JSON.
 
-{% include image.html url="https://alex-perritos.itch.io/nuevas-vistas" image="projects/nuevas-vistas/frame_682.jpg" %}
